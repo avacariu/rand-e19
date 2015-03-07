@@ -71,6 +71,23 @@ Copyright       abandoned, 1983, The Rand Corporation
 */
 #include <sys/stat.h>
 
+#include <features.h>
+#include <sys/cdefs.h>
+#include <gnu/stubs.h>
+#include <stddef.h>
+#include <bits/types.h>
+#include <libio.h>
+#include <_G_config.h>
+#include <wchar.h>
+#include <bits/wchar.h>
+#include <gconv.h>
+#include <stdarg.h>
+#include <bits/stdio_lim.h>
+#include <endian.h>
+#include <bits/endian.h>
+#include <time.h>
+#include <bits/stat.h>
+
 #define BELL 07
 
     int             numargs,	/* global copy of argc                             */
@@ -374,7 +391,7 @@ doit()
     if (c == EOF)
 	goto done;
     for (n = 0; n < nlines; n++) {
-	if ((c = getline()) != EOF)
+	if ((c = _getline()) != EOF)
 	    centline();
 	else
 	    break;
@@ -392,7 +409,7 @@ done:
 }
 
 
-getline()
+_getline()
 {
     register int    i, c;
     register char  *cp;

@@ -11,6 +11,14 @@
 #endif
 
 #include <stdio.h>
+#include <sys/cdefs.h>
+#include <gnu/stubs.h>
+#include <stddef.h>
+#include <libio.h>
+#include <wchar.h>
+#include <gconv.h>
+#include <stdarg.h>
+#include <bits/stdio_lim.h>
 
 #define NBUF (BUFSIZ * 8)
 

@@ -67,6 +67,27 @@ Copyright       abandoned, 1983, The Rand Corporation
    XXXXXXXXXXXXXXXXXXXXXX */
 #include <sys/stat.h>
 
+#include <stdio.h>
+#include <features.h>
+#include <sys/cdefs.h>
+#include <gnu/stubs.h>
+#include <stddef.h>
+#include <bits/types.h>
+#include <libio.h>
+#include <_G_config.h>
+#include <wchar.h>
+#include <bits/wchar.h>
+#include <gconv.h>
+#include <stdarg.h>
+#include <bits/stdio_lim.h>
+#include <ctype.h>
+#include <endian.h>
+#include <bits/endian.h>
+#include <sys/types.h>
+#include <time.h>
+#include <sys/stat.h>
+#include <bits/stat.h>
+
 #define BELL 07
 
     int             numargs,	/* global copy of argc                             */
