@@ -951,7 +951,7 @@ extern void fixtty ();
 extern void flushkeys ();
 extern void fresh ();
 extern void getarg ();
-extern void getline ();
+extern void _getline ();
 extern void getpath ();
 extern void gotomvwin ();
 extern void igsig ();

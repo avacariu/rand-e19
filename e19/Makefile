@@ -114,19 +114,6 @@ test:
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 
-e.main.o: e.h ../include/c_env.h ../include/localenv.h /usr/include/stdio.h
-e.main.o: /usr/include/features.h /usr/include/sys/cdefs.h
-e.main.o: /usr/include/gnu/stubs.h
-e.main.o: /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/stddef.h
-e.main.o: /usr/include/bits/types.h /usr/include/libio.h
-e.main.o: /usr/include/_G_config.h /usr/include/wchar.h
-e.main.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-e.main.o: /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/stdarg.h
-e.main.o: /usr/include/bits/stdio_lim.h /usr/include/string.h
-e.main.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
-e.main.o: /usr/include/bits/confname.h /usr/include/sys/types.h
-e.main.o: /usr/include/time.h ../la1/la.h ../ff3/ff.h /usr/include/limits.h
-e.main.o: /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/limits.h e.t.h
 e.o: e.h ../include/c_env.h ../include/localenv.h /usr/include/stdio.h
 e.o: /usr/include/features.h /usr/include/sys/cdefs.h
 e.o: /usr/include/gnu/stubs.h

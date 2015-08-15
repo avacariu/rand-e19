@@ -9,6 +9,32 @@ file e.main.c
 #endif
 
 #include "e.h"
+#include "e.t.h"
+
+#include "../include/c_env.h"
+#include "../include/localenv.h"
+#include <stdio.h>
+#include <features.h>
+#include <sys/cdefs.h>
+#include <gnu/stubs.h>
+#include <stddef.h>
+#include <bits/types.h>
+#include <libio.h>
+#include <_G_config.h>
+#include <wchar.h>
+#include <bits/wchar.h>
+#include <gconv.h>
+#include <stdarg.h>
+#include <bits/stdio_lim.h>
+#include <string.h>
+#include <unistd.h>
+#include <bits/posix_opt.h>
+#include <bits/confname.h>
+#include <sys/types.h>
+#include <time.h>
+#include "../la1/la.h"
+#include "../ff3/ff.h"
+#include <limits.h>
 
 extern void main1 ();
 extern void mainloop ();
